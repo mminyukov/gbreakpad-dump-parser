@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  gbreakpad-dump-parser:
+    build: .
+    container_name: gbreakpad-dump-parser
+    restart: on-failure
+    volumes:
+      - /opt/symbols:/opt/symbols
+    ports:
+      - 5000:5000
