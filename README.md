@@ -1,0 +1,1 @@
+# gbreakpad-dump-parser
