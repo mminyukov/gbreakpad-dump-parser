@@ -1,6 +1,6 @@
 # Парсинг crash dump на основе google breakpad
 
-Web-сервер написан на python и использует Google Breakpad tools. Повзовляет загружать symbols и парсить dump файлы, чтобы получить читаемый stacktrace вызовов C/C++.
+Web-сервер написан на python и использует Google Breakpad tools. Позволяет загружать symbols и парсить dump файлы, чтобы получить читаемый stacktrace вызовов C/C++.
 
 ## Goggle Breakpad
 
